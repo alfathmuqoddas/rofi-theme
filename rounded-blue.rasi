@@ -3,10 +3,11 @@
  */
 * {
     text-color:                  #f2f2f2;
-    background-color:            #4e4743;
+    background-color:            rgba(254, 254, 254, 0.8);
     lightbg:                     #534c48;
     red:                         #ff5724;
     orange:                      #faa41a; 
+    white:						 #ffffff;
     blue:                        #570df8;
     text-black:					 #000000; 
 
@@ -31,7 +32,7 @@
     alternate-active-foreground: @foreground;
     selected-active-background:  @blue;
     active-background:           @orange;
-    font: "FreeSans 12";
+    font: "Roboto 12";
 }
 #window {
     border:     0;
@@ -50,10 +51,10 @@
 #message {
     border:     0px dash 0px 0px ;
     text-color: @separatorcolor;
-    padding:    2px 0px 0px ;
+    padding:   0 8px;
 }
 #textbox {
-    text-color: @foreground;
+    text-color: #111111;
 }
 #listview {
     fixed-height: 0;
@@ -68,8 +69,8 @@
     padding: 10px 10px;
 }
 #element.normal.normal {
-    text-color: @normal-foreground;
-    background-color: @normal-background;
+    text-color: #111111;
+    background-color: @background-color;
 }
 #element.normal.urgent {
     text-color: @urgent-foreground;
@@ -93,8 +94,8 @@
     background-color: @selected-active-background;
 }
 #element.alternate.normal {
-    text-color: @alternate-normal-foreground;
-    background-color: @alternate-normal-background;
+    text-color: #111111;
+    background-color: @background-color;
 }
 #element.alternate.urgent {
     text-color: @alternate-urgent-foreground;
@@ -127,27 +128,27 @@
 
 #inputbar {
     children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
-    background-color: @orange;
+    background-color: @white;
 }
 #textbox-prompt-colon {
     expand:     false;
     str:        " =>";
     margin:     0px 0.3em 0em 0em ;
     text-color: #444;
-    background-color: @orange;
+    background-color: @white;
 }
 
 #prompt {
-	background-color: @orange;
+	background-color: @white;
 	text-color: #444;
 }
 
 #entry {
-	background-color: @orange;
+	background-color: @white;
 	text-color: #444;
 }
 
 #case-indicator {
-	background-color: @orange;
+	background-color: @white;
 	text-color: #444;
 }
