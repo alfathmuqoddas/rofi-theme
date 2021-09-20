@@ -1,5 +1,5 @@
-# rofi-theme
-My Rofi Theme Collection
+# My Rofi Themes
+My Personal Rofi Themes Collection
 
 1. Blue Rounded
 ![blue-rounded](blue-rounded.png)
