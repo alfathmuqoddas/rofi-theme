@@ -6,3 +6,6 @@ My Rofi Theme Collection
 
 2. Blue Rounded Dark
 ![blue-rounded-dark](blue-rounded-dark.png)
+
+3. Pop Dark
+![pop-dark](pop-dark.png)
